@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "onedict"
+version = "0.1.0"
+description = "A Python library for recursively merging dictionaries with customizable conflict resolution strategies."
+authors = ["flusflas <aflusflas@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/flusflas/onedict"
+keywords = ["dictionaries", "merge"]
+classifiers = [
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+flake8 = "^7.1.1"
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

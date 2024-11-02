@@ -1,0 +1,17 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+build/
+dist/
+
+# IDE generated files
+.idea/
+.vscode/
+
+# Environment
+.env
+venv/
+env/
